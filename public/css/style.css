@@ -1,0 +1,76 @@
+h1, h2, h3, h4, h5, h6, a, label, p, pre, strong{
+    color: #FFF;
+}
+
+p#pPergunta {
+    text-align: center;
+}
+
+.navbar .navbar-expand-sm{
+    background-color: #030E1A;
+}
+
+
+.btn-primary{
+    background-color:  rgba(0, 89, 179, 0.4);
+    border-color: #030E1A;
+}
+
+.btn-success{
+    color: #000;
+    background-color:  #00FFBB;
+    border-color: #00FFBB;
+}
+
+.list-group {
+    background-color: #fdecc8;
+  }
+
+  .list-group-item {
+    color: #030E1A;
+    background-color: #fdd482;
+  }
+
+.card{
+    background-color: #030E1A;
+    border-color: #00FFBB;
+}
+.card-header{
+    background-color: #030E1A;
+    border-color: #030E1A;
+}
+.card-body{
+    color: #FFF;
+    background-color: #030E1A;
+    border-color: #030E1A;
+}
+
+.card-footer{
+    background-color: #030E1A;
+    border-color: #030E1A;
+}
+.form-group{
+    background-color: #030E1A;
+    border-color: #030E1A;
+}
+
+
+
+
+.nav-link{
+    color: #FFF;
+    background-color:  rgba(0, 89, 179, 0.4);
+    border-color: #030E1A;
+    margin: 5px;
+}
+
+
+
+body{
+    background-color: #030E1A;
+}
+
+#formulario-pergunta{
+    margin-top: 5vh;
+}
+

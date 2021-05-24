@@ -1,0 +1,25 @@
+<%- include partials/header.ejs %>
+<body>
+    <%- include partials/navbar.ejs %>
+    <div class="container">
+        <br>
+        <strong>Tópico:<%= pergunta.titulo %></strong>
+        <br>
+        <strong>Descrição:<%= pergunta.descricao %></strong>
+        <hr>
+        <form method="POST" action="/responder">
+             <textarea placeholder="Descreva o novo item" class="form-control" name="corpo"></textarea><br>
+            <input type="hidden" name="pergunta" value="<%= pergunta.id %>">
+            <button type="submit" class="btn btn-primary">Incluir Item</button>
+        </form>
+        <hr>
+        <% respostas.forEach(resposta => { %>
+            <div class = 'list-group'>
+                <br>
+                <li class = 'list-group-item'>
+                    <%= resposta.corpo %>
+            </div>
+        <% }) %>
+    </div>
+</body>
+<%- include partials/footer.ejs %>

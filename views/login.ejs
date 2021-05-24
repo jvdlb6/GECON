@@ -1,0 +1,34 @@
+<%- include partials/header.ejs %>
+<body>
+ <div class = 'container'>
+    <div class='w3-container w3-center' style='width:50%;'>
+        <br>
+        <form class='w3-container w3-card-4  w3-center' method="POST" action="/validaLogin">
+            <h5>Sistema Gestão de Conhecimento</h5>
+            <h5>Manutenção de Software</h5>
+            <hr>
+            <p>
+            <input class="w3-input w3-border w3-round-large" placeholder="Email ou CPF" name="email" type="text">
+            </p>
+            <p>
+            <input class="w3-input w3-border w3-round-large" placeholder="Senha" name="senha" type="password">
+            </p>
+            <button type="submit" class="btn btn-primary btn-block btn-lg">Login</button>
+
+            <br>
+            <hr>
+            <pre>
+UFG - Sistemas de Informação
+Manutenção de Software
+Alexandre Veiga 
+João Vitor
+Willian Soares 
+Florentino Santos
+Rodando na porta 8090
+            </pre>
+        </form>
+    </div>
+ </div>
+
+</body>
+<%- include partials/footer.ejs %>
