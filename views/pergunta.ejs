@@ -12,8 +12,11 @@
             <input type="hidden" name="pergunta" value="<%= pergunta.id %>">
             <button type="submit" class="btn btn-primary">Incluir Item</button>
         </form>
-        <hr>
+        <br>
+        <strong>Respostas de outros usuários:</strong>
+        <br>
         <% respostas.forEach(resposta => { %>
+            <br>
             <div class = 'list-group'>
                 <br>
                 <li class = 'list-group-item'>
